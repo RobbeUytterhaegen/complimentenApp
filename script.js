@@ -14,7 +14,7 @@ async function fetchCompliments()
 
     } catch (error) {
         console.error("Ik kan de complimenten niet verkrijgen", error);
-        return ("Je bent geweldig!", "Blijf stralen!", "code met passie!");
+        return ("You're great!", "Keep shining!", "Code with passion!");
     } finally {
         console.log("fetchCompliments is klaar");
     };
